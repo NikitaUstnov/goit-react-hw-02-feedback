@@ -57,7 +57,7 @@ class Feedback extends Component {
             procentage={this.state.positiveFeedback}
           />
         ) : (
-          <Message message={this.message} />
+          <Message message={this.props.message} />
         )}
       </div>
     );
